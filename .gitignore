@@ -1,0 +1,171 @@
+.ipynb_checkpoints/*
+data/
+checkpoint/
+graphs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.vscode
+sh
+.DS_Store
+# 대용량 파일은 미리 제거 할 것!!
+
+.idea/
+
+.db.sqlite3/
+
+.env/
+
+# 기존 내용 포함 #
+
+# Jupyter Notebook 관련 추가
+*.ipynb~              # 임시 저장된 Jupyter Notebook 파일
+*.nbconvert.ipynb     # Jupyter nbconvert 생성 파일
+jupyter_notebook_config.py  # Jupyter Notebook 설정 파일
+*.nb.html             # HTML로 변환된 Jupyter Notebook 파일
+
+# 데이터 및 결과 파일
+*.h5                  # HDF5 데이터 파일
+*.hdf5                # HDF5 데이터 파일
+*.feather             # Feather 데이터 파일
+*.pkl                 # Pickle 데이터 파일
+*.model               # 모델 파일
+*.tar.gz              # 압축된 모델 및 데이터
+*.zip                 # 압축 파일
+*.7z                  # 압축 파일
+*.rar                 # 압축 파일
+
+# TensorFlow 및 PyTorch 체크포인트
+*.ckpt                # TensorFlow 체크포인트
+*.pth                 # PyTorch 모델 체크포인트
+*.pt                  # PyTorch 모델 체크포인트
+
+# Temporary files
+*.tmp                 # 임시 파일
+*.temp                # 임시 파일
+*~                    # 편집기에서 생성된 임시 파일
+*.swp                 # vim 임시 파일
+*.swo                 # vim 임시 백업 파일
+
+# 시스템 파일
+Thumbs.db             # Windows Thumbs.db
+Icon?                 # macOS 아이콘 파일
+.DS_Store             # macOS 시스템 파일
+
+# Python 패키지 캐시
+*.egg-info/           # egg-info 디렉터리
+__pypackages__/       # PEP582 패키지 캐시 디렉터리
+
+# Logging and debugging
+*.log                 # 로그 파일
+*.out                 # 출력 파일
+*.err                 # 에러 로그 파일
+debug/                # 디버그 관련 디렉터리
+
+# 추가적으로 삭제가 필요하거나 무시할 수 있는 대용량 데이터 파일 경고
+*.csv                 # CSV 데이터 파일
+*.tsv                 # TSV 데이터 파일
+*.xlsx                # 엑셀 파일
+*.parquet             # Parquet 데이터 파일
