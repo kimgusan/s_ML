@@ -102,3 +102,55 @@ tip. 확증적 데이터 분석 (CDA: Confirmatory Data Analysis )
 
 ![Alt text](image-7.png)
 ![Alt text](image-8.png)
+
+---
+
+# basic_llm
+
+## 용어정리
+
+1. 머신러닝(기계학습): 경험(데이터)를 통해 자동으로 개선되는 컴퓨터 알고리즘을 총칭함.
+2. 딥러닝(심층학습): 여러가지 '비선형 변환기법'의 조합을 이용하는 알고리즘의 집합.
+    - 데이터를 통해 Artificial Neurel Network(ANN, 인공신경망)모델을 학습시키는 기법
+      ![Alt text](image-9.png)
+    - black box 가 있기 때문에 확인이 어려움.
+3. 강화학습: 에이전트가 현재의 상태를 기반으로 미래의 보상을 최대화하는 행동 순서를 선택하도록 학습시키는 기법.
+
+### 딥러닝의 분야
+
+1. Computer Vison
+    - Image/Video Classification
+    - Object Detection/Semanitic Segmentation
+2. Natural Language Processing
+    - Machine Translation
+    - Question & Answer
+3. Signal Processing
+    - Automatic Speech Recognition
+
+### 딥러닝에서 자주 쓰이는 연산
+
+-   Matrix Multification (행렬 곱연산)
+-   A Fully Connected Layer
+
+### Tensorflow (Keras 2.x)
+
+-   keras 는 2.x 부터 통합
+-   google 에서 개발
+-   TPU 지원
+-   모바일이나 웹 서빙에서 유리
+-   단점: 에러 메시지가 부정확하며, Static Graph 의 방식이며 tf.xx 와 같은 문법을 사용
+
+### Pytorch
+
+-   Meta 에서 개발
+-   Dynamic Graph 지원
+-   다양한 서드파티 라이브러리 존재(huggingface, timm)
+
+![Alt text](image-10.png)
+
+### Tensor Attributes
+
+-   고차원배열
+-   numpy 의 array와 비슷한 개념
+
+## MLP
